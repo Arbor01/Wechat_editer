@@ -190,18 +190,7 @@ for d_org in r_f_short_org.readlines():
                                            r_f_detail4.close()
                                            ###################################################
                                            line = line + 1
-                                       # else:
-                                       #     #####################################################################
-                                       #     if (line % 4 == 0):
-                                       #         r_f_detail4 = open('.\original_info_detail\\detail4.html', 'r',encoding='utf-8')
-                                       #         for d_detail4 in r_f_detail4.readlines():
-                                       #             if (d_detail4.replace('review_editer', d_org)):
-                                       #                 new_one = d_detail4.replace('review_editer', d_org)
-                                       #                 w_f_today.write(new_one)
-                                       #             else:
-                                       #                 w_f_today.write(d_detail4)
-                                       #         r_f_detail4.close()
-                                       #         line = line + 1
+                                 
 #################
 # 写尾
 r_f_tail = open('.\original_info_detail\\tail.html', 'r', encoding='utf-8')
